@@ -1,0 +1,34 @@
+.skilltamanho {
+    width: 300px;
+    height: 300px;
+   
+}
+
+.webimg {
+    padding: 30px;
+    opacity: 0.5;
+}
+
+.txtskill {
+    display: flex;
+    align-items: end;
+}
+
+.card1skill {
+    transition: transform 0.3s ease;
+}
+
+.card1skill:hover {
+    transform: skewX(6deg);
+    
+}
+ 
+
+.card3skill {
+    transition: transform 0.3s ease;
+}
+
+.card3skill:hover {
+    transform: skewX(-7deg);
+    
+}

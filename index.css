@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 1px 1px #535353;
+   
+    
+    
+}
+
+
+
+
+
+@keyframes colorfundo {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.text {
+    font: normal 25pt Arial;
+    margin-right: 50px;
+    transition: width 0.5s ease, height 0.5s ease; /* Adicionando transição para width e height */
+}
+
+main {
+    margin-top: 150px;
+}
+
+nav {
+    display: fixed;
+    max-height: 100px;
+    height: 100%;
+    top: 0;
+    
+    justify-content: end;
+}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Adicione esta linha */
+}
+
+header,
+
+    img {
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul {
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+   }
+   
+   nav ul li {
+    margin-left: 1rem;
+   }
+
+
+
+.img-config {
+    max-width: 300px;
+    width: 100%;
+    transform: translateX(0%);
+}
+
+.selecionarAnim {
+    width: 200px;
+    height: 190px;
+    transition: width 0.5s ease, height 0.5s ease; /* Adicionando transição para width e height */
+}
+
+
+
+.selecionarAnim:hover {
+    padding: 10px;
+    transition-duration: 12s;
+
+}
+.selecionarAnim:hover::after {
+    padding: 20px;
+}
+
+.flutuar {
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite
+}
+
+.anima {
+    font-family: 1.2em;
+    display: inline-block;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    padding-right: 3px;
+    animation: piscar normal infinite 10s, escrever normal 3s steps(150) both;
+    
+}
+
+.posicaoCertaText {
+    transform: translateX(-30%);
+}
+
+@keyframes piscar {
+    100%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes escrever {
+    100%{
+        max-width: 100%;
+    }
+}
+
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.linha1 {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+    height: 200px;
+}
+
+.ajusteImagem { 
+    display: flex;
+    justify-content: end;
+    
+    margin-right: 0;
+    transform: translateX(15%);
+   
+    
+}
+
+.ajusteTextApresentacao {
+
+    font: normal 20pt Arial;
+    
+    
+}
+
+
+.ajusteOrdem2 {
+    margin-top: 1%;
+}
+
+
+.ajusteOrdem3 {
+    margin-top: 15%;
+}
+
+.ajusteOrdem5 {
+    margin-top: 10%;
+}
+
+.ajusteOrdem4 {
+    margin-top: 10%;
+}
+
+.ajusteOrdem6 {
+    margin-top: 4%;
+}
+
+.cardsocial {
+    width: 80px;
+}
+
+.cardprojeto {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 576px) {
+	p {
+        display: flex;
+        justify-content: center;
+        
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .posicaoCertaText {
+        transform: translateX(-10%);
+    
+    }
+
+    .tamanhoImagem {
+
+        display: flex;
+        justify-content: center;
+
+        height: 120px;
+        width: 120px;
+    }
+    
+
+}
+
+.card-body {
+    position: relative;
+    z-index: 2;
+}
+
+
+.configimg {
+    display: flex;
+    align-items: center;
+
+    margin-left: 5px;
+
+    width: 198px;
+    z-index: 2;
+}
+
+.card1config {
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 649px;
+    overflow: hidden;
+}
+
+.card1config::before {
+    content: "";
+    position: absolute;
+    width: 680px;
+    height: 200%;
+    background: linear-gradient(180deg, #989898, #abaaaa);
+
+    animation: animate 3s linear infinite;
+}
+
+.card1config::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    inset: 5px;
+    border-radius: inherit;
+
+}
+
+.card1config svg {
+    position: relative;
+    z-index: 1;
+    width: 150px;
+}
+
+@keyframes animate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.fraseabaixo {
+    margin-bottom: 3%;
+}
+
+
+.skillstextconfig {
+    display: flex;
+    justify-content: center;
+
+    font-size: 3rem;
+
+    margin-top: 1%;
+    
+}
+
+.techtextconfig {
+    display: flex;
+    justify-content: center;
+
+    font-size: 3rem;
+
+}
+
+.caixa1 {
+    width: 220px;
+ 
+}
+
+.caixa2 {
+    width: 220px;
+    height: 60px;
+ 
+}
+
+.ajustecxtxt {
+    margin-left: 20%;
+}
+
+.ajustedistanciactt {
+    margin-bottom: 10%;
+}
+
+.ajustedistanciactt2 {
+    margin-bottom: 5%;
+}
+
+
+
+.ajustecaixas {
+    margin-right: 30%;
+}
