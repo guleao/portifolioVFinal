@@ -1,0 +1,45 @@
+@import 'https://fonts.googleapis.com/css?family=Lily+Script+One';
+body {
+  background: #eee;
+  font-family: 'Lily Script One';
+}
+
+.cardLing {
+  margin-top: 30px;
+  width: 175px;
+  height: 175px;
+  perspective: 500px;
+}
+
+.contentLing {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.cardLing:hover .contentLing {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.frontLing,
+.backLing {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #606161;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.backLing {
+  background: #606161;
+  color: white;
+  transform: rotateY( 180deg );
+}

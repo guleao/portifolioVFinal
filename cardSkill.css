@@ -1,0 +1,103 @@
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 1px 1px 2px #8d8b8b;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 5px #8e8989;
+    box-shadow: 1px 1px 7px #8d8d8d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-86.6deg);
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .textskill {
+    font-size: 12px;
+
+  }
+
+  .design {
+    background-position-y: 22px;
+    background-position-x: -80px;
+    background-image: url(/img/figma.png);
+    background-size: 350px;
+  }
+
+  .web {
+    background-position-y: 2px;
+    background-position-x: -50px;
+    background-image: url(/img/web.png);
+    background-size: 360px;
+  }
+
+  .equipe {
+    background-position-y: 36px;
+    background-position-x: -70px;
+    background-image: url(/img/equipe.png);
+    background-size: 520px;
+  }
+
+  .estudo {
+    background-position-y: 36px;
+    background-position-x: -70px;
+    background-image: url(/img/estudo.png);
+    background-size: 520px;
+  }
+
+  .comunicacao {
+    background-position-y: 36px;
+    background-position-x: -70px;
+    background-image: url(/img/comunicacao.png);
+    background-size: 520px;
+  }
