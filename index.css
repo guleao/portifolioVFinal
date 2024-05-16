@@ -371,3 +371,23 @@
        
         font-size: 12px;
     }
+
+    .tamanhoImagem {
+        margin-left: 200px;
+    }
+
+    @media (max-width: 425px) {
+        .txtIntroducao {
+          font-size: 25px;
+        }
+        .img-config {
+         
+            width: 200px;
+        }
+        .book {
+            margin-top: 25px;
+        }
+        .tamanhoImagem {
+            margin-left: 100px;
+        }
+      }

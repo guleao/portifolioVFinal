@@ -13,15 +13,20 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="card.css" />
-    <link rel="stylesheet" href="skills.css" />
-    <link rel="stylesheet" href="cardSkill.css" />
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="cardSkill.css" />
   </head>
 
   <!-- Inicio código html -->
@@ -35,7 +40,7 @@
             alt=""
             width="100"
             height="90"
-            class="d-inline-block align-text-top animate__animated animate__fadeInDown tamanhoImagem"
+            class="d-inline-block align-text-top animate__animated animate__fadeInDown tamanhoImagem ms-5"
           />
         </a>
 
@@ -61,17 +66,21 @@
     <!-- Introdução ao portifólio -->
     <main class="container-fluid">
       <div class="row">
-        <div class="col-5 d-flex justify-content-end">
+        <div
+          class="col-lg-5 d-flex justify-content-lg-end justify-content-sm-center"
+        >
           <img class="flutuar img-config" src="/img/eu.png" />
         </div>
-        <div class="col-7 d-flex flex-column justify-content-center">
+        <div
+          class="col-lg-5 col-sm-12 d-flex flex-column justify-content-center"
+        >
           <p class="txtIntroducao">
-            Olá, sou
-            <span style="color: rgb(118, 118, 143)">Augusto Leão</span>!
-            <br />
+            Olá, sou&nbsp;
+            <span style="color: rgb(118, 118, 143)"> Augusto Leão</span>!
           </p>
         </div>
       </div>
+
       <section id="skills">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
@@ -106,10 +115,9 @@
             </div>
           </div>
         </div>
-
-        <div class="col-12">
-          <div class="row d-flex justify-content-evenly">
-            <div class="book">
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-lg-2 col-6">
+            <div class="book justify-content-center">
               <p class="textskill">
                 Ao longo da minha jornada acadêmica, tive a oportunidade de
                 adquirir uma experiência valiosa com o Figma. Esta experiência
@@ -125,6 +133,8 @@
                 </p>
               </div>
             </div>
+          </div>
+          <div class="col-lg-2 col-6">
             <div class="book">
               <p class="textskill">
                 Com uma paixão profunda por tecnologia e design, tenho me
@@ -138,6 +148,8 @@
                 <p class="bg-light">Desenvolvimento Web</p>
               </div>
             </div>
+          </div>
+          <div class="col-lg-2 col-6">
             <div class="book">
               <p class="textskill">
                 Valorizo o trabalho em equipe e acredito que é essencial para o
@@ -150,6 +162,8 @@
                 <p class="bg-light">Trabalho em equipe</p>
               </div>
             </div>
+          </div>
+          <div class="col-lg-2 col-6">
             <div class="book">
               <p class="textskill">
                 Acredito que a comunicação eficaz é a espinha dorsal de qualquer
@@ -164,19 +178,19 @@
                 <p class="bg-light">Comunicação</p>
               </div>
             </div>
-            <div class="book">
-              <p class="textskill">
-                Ao longo da minha jornada acadêmica, tive a oportunidade de
-                adquirir uma experiência valiosa com o Figma. Esta experiência
-                me permitiu criar vários designs, incluindo landing pages e
-                sistemas. Acredito que minha capacidade de aprender rapidamente
-                e adaptar-me a novos conceitos e tecnologias é um dos meus
-                maiores ativos. Estou ansioso para aplicar e expandir essas
-                habilidades em futuros projetos.
-              </p>
-              <div class="cover estudo bg-light">
-                <p class="bg-light">Aprendizado contínuo</p>
-              </div>
+          </div>
+          <div class="book">
+            <p class="textskill">
+              Ao longo da minha jornada acadêmica, tive a oportunidade de
+              adquirir uma experiência valiosa com o Figma. Esta experiência me
+              permitiu criar vários designs, incluindo landing pages e sistemas.
+              Acredito que minha capacidade de aprender rapidamente e adaptar-me
+              a novos conceitos e tecnologias é um dos meus maiores ativos.
+              Estou ansioso para aplicar e expandir essas habilidades em futuros
+              projetos.
+            </p>
+            <div class="cover estudo bg-light">
+              <p class="bg-light">Aprendizado contínuo</p>
             </div>
           </div>
         </div>
@@ -192,208 +206,188 @@
           </div>
         </div>
 
-        <div
-          class="container d-flex justify-content-center align-items-center"
-          style="height: 40vh"
-        >
-          <div class="row">
-            <div class="col">
-              <div
-                class="cardLing d-flex justify-content-center align-content-center"
-              >
-                <div class="contentLing">
-                  <div class="frontLing d-flex justify-content-center">
-                    <img src="/img/angular.png" alt="" />
-                  </div>
-                  <div class="backLing d-flex justify-content-center">
-                    <img src="/img/angular.png" alt="" />
-                  </div>
+        <div class="row">
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div class="cardLing">
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img class="ajusteImg" src="/img/html.png" alt="HTML Icon" />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img class="ajusteImg" src="/img/html.png" alt="HTML Icon" />
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div
-                class="cardLing d-flex justify-content-center align-content-center"
-              >
-                <div class="contentLing">
-                  <div class="frontLing d-flex justify-content-center">
-                    <img
-                      src="/img/html.png"
-                      alt=""
-                      style="width: 150px; height: 150px"
-                      class="mt-3"
-                    />
-                  </div>
-                  <div class="backLing d-flex justify-content-center">
-                    <img
-                      src="/img/html.png"
-                      alt=""
-                      style="width: 150px; height: 150px"
-                      class="mt-3"
-                    />
-                  </div>
+          </div>
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div class="cardLing">
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img class="ajusteImgCss" src="/img/css.png" alt="CSS Icon" />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img class="ajusteImgCss" src="/img/css.png" alt="CSS Icon" />
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div
-                class="cardLing d-flex justify-content-center align-content-center"
-              >
-                <div class="contentLing">
-                  <div class="frontLing d-flex justify-content-center">
-                    <img
-                      src="/img/css.png"
-                      alt=""
-                      style="width: 110px; height: 150px"
-                      class="mt-3"
-                    />
-                  </div>
-                  <div class="backLing d-flex justify-content-center">
-                    <img
-                      src="/img/css.png"
-                      alt=""
-                      style="width: 110px; height: 150px"
-                      class="mt-3"
-                    />
-                  </div>
+          </div>
+
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div
+              class="cardLing d-flex justify-content-center align-content-center"
+            >
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img class="ajusteImgJs" src="/img/js.png" alt="JS Icon" />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img class="ajusteImgJs" src="/img/js.png" alt="JS Icon" />
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div
-                class="cardLing d-flex justify-content-center align-content-center"
-              >
-                <div class="contentLing">
-                  <div class="frontLing d-flex justify-content-center">
-                    <img
-                      src="/img/js.png"
-                      alt=""
-                      style="width: 120px; height: 120px; margin-top: 30px"
-                    />
-                  </div>
-                  <div class="backLing d-flex justify-content-center">
-                    <img
-                      src="/img/js.png"
-                      alt=""
-                      style="width: 120px; height: 120px; margin-top: 30px"
-                    />
-                  </div>
+          </div>
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div
+              class="cardLing d-flex justify-content-center align-content-center"
+            >
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img class="ajusteImgJs" src="/img/ts.png" alt="TS Icon" />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img class="ajusteImgJs" src="/img/ts.png" alt="TS Icon" />
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div
-                class="cardLing d-flex justify-content-center align-content-center"
-              >
-                <div class="contentLing">
-                  <div class="frontLing d-flex justify-content-center">
-                    <img
-                      src="/img/ts.png"
-                      alt=""
-                      style="width: 120px; height: 120px; margin-top: 30px"
-                    />
-                  </div>
-                  <div class="backLing d-flex justify-content-center">
-                    <img
-                      src="/img/ts.png"
-                      alt=""
-                      style="width: 120px; height: 120px; margin-top: 30px"
-                    />
-                  </div>
+          </div>
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div
+              class="cardLing d-flex justify-content-center align-content-center"
+            >
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImg"
+                    src="/img/angular.png"
+                    alt="Angular Icon"
+                  />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImg"
+                    src="/img/angular.png"
+                    alt="Angular Icon"
+                  />
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div
-                class="cardLing d-flex justify-content-center align-content-center"
-              >
-                <div class="contentLing">
-                  <div class="frontLing d-flex justify-content-center">
-                    <img
-                      src="/img/bootstrap.png"
-                      alt=""
-                      style="width: 140px; height: 120px; margin-top: 25px"
-                    />
-                  </div>
-                  <div class="backLing d-flex justify-content-center">
-                    <img
-                      src="/img/bootstrap.png"
-                      alt=""
-                      style="width: 140px; height: 120px; margin-top: 25px"
-                    />
-                  </div>
+          </div>
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div
+              class="cardLing d-flex justify-content-center align-content-center"
+            >
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgJs"
+                    src="/img/java.png"
+                    alt="Java Icon"
+                  />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgJs"
+                    src="/img/java.png"
+                    alt="Java Icon"
+                  />
                 </div>
               </div>
             </div>
-            <div class="row d-flex justify-content-center">
-              <div class="col-2">
-                <div
-                  class="cardLing d-flex justify-content-center align-content-center"
-                >
-                  <div class="contentLing">
-                    <div class="frontLing d-flex justify-content-center">
-                      <img
-                        src="/img/java.png"
-                        alt=""
-                        style="width: 150px; height: 150px"
-                        class="mt-3"
-                      />
-                    </div>
-                    <div class="backLing d-flex justify-content-center">
-                      <img
-                        src="/img/java.png"
-                        alt=""
-                        style="width: 150px; height: 150px"
-                        class="mt-3"
-                      />
-                    </div>
-                  </div>
+          </div>
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div
+              class="cardLing d-flex justify-content-center align-content-center"
+            >
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgSql"
+                    src="/img/mysql.png"
+                    alt="SQL Icon"
+                  />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgSql"
+                    src="/img/mysql.png"
+                    alt="SQL Icon"
+                  />
                 </div>
               </div>
-              <div class="col-2">
-                <div
-                  class="cardLing d-flex justify-content-center align-content-center"
-                >
-                  <div class="contentLing">
-                    <div class="frontLing d-flex justify-content-center">
-                      <img
-                        src="/img/github.png"
-                        alt=""
-                        style="width: 150px; height: 150px"
-                        class="mt-3"
-                      />
-                    </div>
-                    <div class="backLing d-flex justify-content-center">
-                      <img
-                        src="/img/github.png"
-                        alt=""
-                        style="width: 150px; height: 150px"
-                        class="mt-3"
-                      />
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div
+              class="cardLing d-flex justify-content-center align-content-center"
+            >
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgJs"
+                    src="/img/github.png"
+                    alt="GIT Icon"
+                  />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgJs"
+                    src="/img/github.png"
+                    alt="GIT Icon"
+                  />
                 </div>
               </div>
-              <div class="col-2">
-                <div
-                  class="cardLing d-flex justify-content-center align-content-center"
-                >
-                  <div class="contentLing">
-                    <div class="frontLing d-flex justify-content-center">
-                      <img
-                        src="/img/mysql.png"
-                        alt=""
-                        style="width: 130px; height: 110px; margin-top: 26px"
-                      />
-                    </div>
-                    <div class="backLing d-flex justify-content-center">
-                      <img
-                        src="/img/mysql.png"
-                        alt=""
-                        style="width: 130px; height: 110px; margin-top: 26px"
-                      />
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div
+              class="cardLing d-flex justify-content-center align-content-center"
+            >
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgFigma"
+                    src="/img/figmalogo.png"
+                    alt="Figma Icon"
+                  />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgFigma"
+                    src="/img/figmalogo.png"
+                    alt="Figma Icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 d-flex justify-content-center">
+            <div
+              class="cardLing d-flex justify-content-center align-content-center"
+            >
+              <div class="contentLing">
+                <div class="frontLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgBS"
+                    src="/img/bootstrap.png"
+                    alt="GIT Icon"
+                  />
+                </div>
+                <div class="backLing d-flex justify-content-center">
+                  <img
+                    class="ajusteImgBS"
+                    src="/img/bootstrap.png"
+                    alt="GIT Icon"
+                  />
                 </div>
               </div>
             </div>

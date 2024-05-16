@@ -64,7 +64,7 @@
 
   .textskill {
     font-size: 12px;
-
+    margin-left: 4px;
   }
 
   .design {
@@ -101,3 +101,35 @@
     background-image: url(/img/comunicacao.png);
     background-size: 520px;
   }
+
+  @media (max-width: 425px) {
+  .book {
+    position: relative;
+    border-radius: 10px;
+    width: 180px;
+    height: 260px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 1px 1px 2px #8d8b8b;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+
+    .textskill {
+      font-size: 10px;
+      margin-left: 4px;
+    }
+  }
+}
