@@ -223,33 +223,6 @@
 
 
 
-    @media only screen and (min-width: 425px) and (max-width: 576px) {
-        p {
-            display: flex;
-            justify-content: center;
-            
-            font-weight: 500;
-            font-size: 15px;
-        }
-
-        .posicaoCertaText {
-            transform: translateX(-10%);
-        
-        }
-
-        nav {
-            display: flex;
-            
-            transform: translateX(-50%);
-
-            height: 120px;
-            width: 120px;
-        }
-        
-
-    }
-
-
 
 
     .card-body {
@@ -381,9 +354,7 @@
         font-size: 12px;
     }
 
-    .tamanhoImagem {
-        margin-left: 200px;
-    }
+    
 
     @media (max-width: 425px) {
         .txtIntroducao {
@@ -396,7 +367,7 @@
         .book {
             margin-top: 25px;
         }
-        .tamanhoImagem {
-            margin-left: 100px;
+        .logo {
+            left: 50px;
         }
       }
