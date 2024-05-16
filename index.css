@@ -26,7 +26,15 @@
 
 
 
+    .txtIntroducao {
+        white-space: nowrap;
+    }
 
+    @media (max-width: 420px) {
+        .txtIntroducao {
+            white-space: normal;
+        }
+    }
     
 
 
