@@ -18,7 +18,7 @@
 
     .img-config {
         position: relative;
-        left: 80px;
+        
         max-width: 300px;
         width: 100%;
         transform: translateX(0%);
@@ -33,6 +33,7 @@
     @media (max-width: 420px) {
         .txtIntroducao {
             white-space: normal;
+
         }
     }
     

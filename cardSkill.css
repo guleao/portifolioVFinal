@@ -57,10 +57,7 @@
     transform: rotatey(-86.6deg);
   }
   
-  p {
-    font-size: 20px;
-    font-weight: bolder;
-  }
+  
 
   .textskill {
     font-size: 12px;
@@ -126,10 +123,19 @@
     -ms-flex-pack: center;
     justify-content: center;
     color: #000;
+  }
 
-    .textskill {
-      font-size: 10px;
-      margin-left: 4px;
-    }
+  .textskill {
+    font-size: 10px;
+    margin-left: 8px;
+  }
+
+  
+}
+
+@media (max-width: 375px) {
+  p {
+    font-size: 13px;
+    
   }
 }
